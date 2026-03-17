@@ -2,9 +2,9 @@
 
 Create unique and visually stunning custom player names for Clone Hero with gradient colors, individual letter styling, and direct export to your profile.
 
-![Python Version](https://img.shields.io/badge/python-3.6%2B-blue)
-![Platform](https://img.shields.io/badge/platform-Windows-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
+[![Python Version](https://img.shields.io/badge/python-3.6%2B-blue)](https://python.org)
+[![Platform](https://img.shields.io/badge/platform-Windows-blue)](https://github.com/iamjrmh/CHColorGen)
+[![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/iamjrmh/CHColorGen)
 
 ## ✨ Features
 
@@ -20,8 +20,8 @@ Create unique and visually stunning custom player names for Clone Hero with grad
 
 ### Installation (Windows Executable)
 
-1. **Download** the latest `.exe` from the [Releases](https://github.com/iamjrmh/CloneHeroColorGen/releases) page
-2. **Extract** the zip file to your preferred location (e.g., `C:\Program Files\CloneHeroNameGen`)
+1. **Download** the latest `.exe` from the [Releases](https://github.com/iamjrmh/CHColorGen/releases) page
+2. **Extract** the zip file to your preferred location
 3. **Run** `jrmh.rh Name Gen.exe`
 
 No Python installation required!
@@ -37,14 +37,8 @@ Perfect for smooth, flowing color transitions across your entire name.
 3. **Choose colors**:
    - Select **Start Color** and **End Color**
    - Optionally add up to 3 intermediate colors for complex gradients
-4. **Apply styling** (optional):
-   - ✓ Bold
-   - ✓ Italic
-   - ✓ Underline
-   - ✓ Strikethrough
-5. **Adjust spacing** (optional):
-   - Font Size
-   - Character Spacing
+4. **Apply styling** (optional): Bold, Italic, Underline, Strikethrough
+5. **Adjust spacing** (optional): Font Size, Character Spacing
 6. **Click "Generate"**
 7. **Preview** your name in real-time
 
@@ -55,31 +49,22 @@ Perfect for rainbow effects or unique per-character styling.
 1. **Switch to "Single Letter Coloring" tab**
 2. **Enter your name** in the "Name:" field
 3. **Click "Update Letters"** to generate controls for each character
-4. **Customize each letter**:
-   - Select individual color using picker or hex code
-   - Apply per-letter styling (Bold, Italic, Underline, Strikethrough)
-5. **Set global controls** (optional):
-   - Font Size
-   - Character Spacing
+4. **Customize each letter**: color, Bold, Italic, Underline, Strikethrough
+5. **Set global controls** (optional): Font Size, Character Spacing
 6. **Click "Generate"**
 7. **Preview** your creation
 
 ## 📁 File Locations
 
 | File | Location |
-|------|----------|
+|---|---|
 | Clone Hero Profiles | `Documents\Clone Hero\profiles.ini` |
 
 ## 🎨 Color Format
 
 Colors use standard hex format: `#RRGGBB`
 
-**Examples:**
-- `#FF0000` - Red
-- `#00FF00` - Green
-- `#0000FF` - Blue
-- `#FF00FF` - Magenta
-- `#FFFF00` - Yellow
+**Examples:** `#FF0000` Red · `#00FF00` Green · `#0000FF` Blue · `#FF00FF` Magenta · `#FFFF00` Yellow
 
 **Tips:**
 - Use [coolors.co](https://coolors.co) to find color schemes
@@ -88,34 +73,27 @@ Colors use standard hex format: `#RRGGBB`
 
 ## 🐛 Troubleshooting
 
-### Export button doesn't work
-- **Cause**: `profiles.ini` is in use or read-only
-- **Solution**: Close Clone Hero and ensure the file isn't read-only
+**Export button doesn't work**
+`profiles.ini` is in use or read-only. Close Clone Hero and ensure the file isn't read-only.
 
-### Preview looks different than in-game
-- **Cause**: Preview is approximate; actual rendering depends on Clone Hero
-- **Solution**: Test in-game for final appearance
+**Preview looks different than in-game**
+Preview is approximate. Test in-game for final appearance.
 
-### "Permission denied" error
-- **Cause**: Application can't write to Documents folder
-- **Solution**: Run as administrator or check folder permissions
+**"Permission denied" error**
+Run as administrator or check folder permissions on your Documents folder.
 
 ## 💡 Pro Tips
 
-- **Gradient Tips**:
-  - Use 2-3 colors for smooth gradients
-  - Avoid too many color stops (can look choppy)
-  - Similar hues create subtle effects, contrasting hues create bold effects
+- **Gradient:** Use 2–3 colors for smooth transitions. Similar hues = subtle, contrasting hues = bold.
+- **Individual letters:** Red → Orange → Yellow → Green → Blue → Purple for a classic rainbow.
+- **Styling:** Bold helps visibility on busy backgrounds. Avoid stacking too many effects at once.
 
-- **Individual Letter Tips**:
-  - Rainbow effects: Red → Orange → Yellow → Green → Blue → Purple
-  - Alternating colors create a "vibrating" effect
-  - Use spacing to separate letters with busy colors
+## 🔧 Running from Source
 
-- **Styling Tips**:
-  - Bold makes names more visible on busy backgrounds
-  - Avoid multiple effects (e.g., bold + italic + underline) - can be unreadable
-  - Test readability at different screen distances
+```
+pip install tkinter
+python "jrmh.rh Name Gen.py"
+```
 
 ## 📄 License
 
@@ -130,7 +108,8 @@ Also ngl i lowkey kinda lost the original python file i was working on it with s
 ## 🎮 Related Projects
 
 - [Clone Hero](https://clonehero.net/) - The rhythm game this tool supports
-- [Clone Hero Bad Songs Cleaner](https://github.com/iamjrmh/CloneHeroBadSongsCleaner) - Clean up problematic songs from your library
+- [CHMenuChanger](https://github.com/iamjrmh/CHMenuChanger) - Swap out Clone Hero's menu background textures
+- [CHCleaner](https://github.com/iamjrmh/CHCleaner) - Clean up problematic songs from your library
 - [Chorus](https://chorus.fightthe.pw/) - Song database and downloader
 
 ---
