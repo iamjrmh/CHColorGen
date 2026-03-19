@@ -8,7 +8,7 @@ Create unique and visually stunning custom player names for Clone Hero with grad
 
 ---
 
-## THIS REPO IS NO LONGER MAINTAINED.
+## ⚠️ THIS REPO IS NO LONGER MAINTAINED.
 For the most up-to-date Clone Hero modding programs, check out my AIO [CHSuite.](https://github.com/iamjrmh/CHSuite) All future updates to my programs will be through here. Thank you!
 
 ---
