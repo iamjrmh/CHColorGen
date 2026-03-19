@@ -6,6 +6,13 @@ Create unique and visually stunning custom player names for Clone Hero with grad
 [![Platform](https://img.shields.io/badge/platform-Windows-blue)](https://github.com/iamjrmh/CHColorGen)
 [![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/iamjrmh/CHColorGen)
 
+---
+
+## THIS REPO IS NO LONGER MAINTAINED.
+For the most up-to-date Clone Hero modding programs, check out my AIO [CHSuite.](https://github.com/iamjrmh/CHSuite) All future updates to my programs will be through here. Thank you!
+
+---
+
 ## ✨ Features
 
 - **Gradient Name Generation** - Create smooth color gradients across your player name with multiple color stops
